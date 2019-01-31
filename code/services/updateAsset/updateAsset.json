@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 4,
+    "dependencies": "log,SystemConstants,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "updateAsset",
+    "params": [
+        "{\n  \"asset_id\": \"3e3aed88-549c-4ed7-a752-64c425ce4e08\",\n  \"asset\": {\n    \"name\": \"blah\"\n  }\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "updateAsset.js"
+}
