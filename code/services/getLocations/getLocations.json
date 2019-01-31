@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 5,
+    "dependencies": "log,SystemConstants,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "getLocations",
+    "params": [
+        "{\n    \"location_id\": \"e8c3f186-92b5-40e9-967d-ea6f5464624d\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "getLocations.js"
+}
