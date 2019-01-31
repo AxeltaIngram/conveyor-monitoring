@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 5,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "createEmployee",
+    "params": [
+        "{\n  \"user\": {\n    \"email\": \"abdda@c.com\",\n    \"password\": \"b\"\n  },\n  \"employee\": {\n    \"assets\": \"asdf\",\n    \"first_name\": \"Tom\",\n    \"last_name\": \"Smith\",\n    \"locations\": \"big places\",\n    \"phone_number\": \"91911231212\",\n    \"photo\": \"\"\n  }\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "createEmployee.js"
+}
