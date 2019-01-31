@@ -1,0 +1,15 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 37,
+    "dependencies": "log,clearblade,cbFetchPromise,getAlertChanges,cbCreatePromise",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "processAndCreateAlerts",
+    "params": [
+        "{\n  \"topic\": \"swarm1/tls/disabled\",\n  \"body\": \"{\\\"vbatt\\\":3.114,\\\"tempint\\\":21.55,\\\"temp4\\\":52,\\\"temp3\\\":1630,\\\"temp2\\\":853.16,\\\"temp1\\\":853.16,\\\"ai2\\\":-12.7,\\\"ai1\\\":0,\\\"t\\\":\\\"2018-11-27T22:38:35.000Z\\\",\\\"mac\\\":\\\"00170D000030F09C\\\"}\",\n  \"userId\": \"d6eea4bf0ba687ebb9e3d9a0d716 :: michael-temp\",\n  \"trigger\": \"Messaging::Publish\"\n}"
+    ],
+    "permissions": {},
+    "run_user": "",
+    "source": "processAndCreateAlerts.js"
+}
