@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "QPromiseLib",
+    "description": "cbFetchPromise({collectionName, query})",
+    "name": "cbFetchPromise",
+    "version": 3,
+    "visibility": "system"
+}
