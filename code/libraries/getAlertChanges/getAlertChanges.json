@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "checkAlertViolated",
+    "description": "getAlertChanges(nodeMsg, alertConfigs, activeAlerts)",
+    "name": "getAlertChanges",
+    "version": 7,
+    "visibility": "system"
+}
