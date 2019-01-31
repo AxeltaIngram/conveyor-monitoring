@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 40,
+    "dependencies": "log,clearblade,SystemConstants,UtilityFunctions",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "createLocations",
+    "params": [
+        "{\n  \"locations\": [\n    {\n      \"name\": \"Bobbys place1\",\n      \"description\": \"Main Street Shop\",\n      \"lat\": \"1\"\n    },\n    {\n      \"name\": \"Bobbys place2\",\n      \"description\": \"Main Street Shop\",\n      \"lat\": \"1\",\n      \"long\": \"2\"\n    }\n  ]\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "createLocations.js"
+}
