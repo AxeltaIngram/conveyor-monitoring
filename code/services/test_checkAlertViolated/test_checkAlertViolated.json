@@ -1,0 +1,15 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 75,
+    "dependencies": "log,checkAlertViolated,chai",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "test_checkAlertViolated",
+    "params": [
+        "{}"
+    ],
+    "permissions": {},
+    "run_user": "",
+    "source": "test_checkAlertViolated.js"
+}
