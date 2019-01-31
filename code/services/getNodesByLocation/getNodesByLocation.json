@@ -1,0 +1,17 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 3,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "getNodesByLocation",
+    "params": [
+        "{\n    \"location_id\": \"48b50eac-facb-46a8-b32d-977c3caa16fb\"\n}"
+    ],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "getNodesByLocation.js"
+}
