@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 4,
+    "dependencies": "log,UtilityFunctions,SystemConstants,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "createGateways",
+    "params": [
+        "{\n  \"gateways\": [\n    {\n      \"gateway_name\": \"asdf\",\n      \"gateway_label\": \"Labelasdf\",\n      \"gateway_id\": \"123\"\n    },\n    {\n      \"gateway_name\": \"aesadsdf\",\n      \"gateway_label\": \"Labelasdf\",\n      \"gateway_id\": \"123\"\n    }\n  ]\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "createGateways.js"
+}
