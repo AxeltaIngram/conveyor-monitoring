@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 11,
+    "dependencies": "log,SystemConstants,clearblade,QPromiseLib",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "deleteLocation",
+    "params": [
+        "{\n  \"location_id\": \"01ac038c-aced-48e7-b491-efda9877ca97\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "deleteLocation.js"
+}
