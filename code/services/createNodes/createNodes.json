@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 5,
+    "dependencies": "log,UtilityFunctions,SystemConstants,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "createNodes",
+    "params": [
+        "{\n  \"node\": {\n    \"node_name\": \"testing\"\n  }\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "createNodes.js"
+}
