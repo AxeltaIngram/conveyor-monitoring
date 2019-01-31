@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "QPromiseLib",
+    "description": "cbCreatePromise({ collectionName, item })",
+    "name": "cbCreatePromise",
+    "version": 3,
+    "visibility": "system"
+}
